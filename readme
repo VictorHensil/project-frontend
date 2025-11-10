@@ -1,17 +1,40 @@
-Organizer Mind
+# Organizer Mind 🧠
 
 Este projeto tem como finalidade facilitar a organização e aumentar a produtividade do dia a dia.
 
-Linguagens:
-- HTML, Css e JavaScript.
+---
 
-O que contém no projeto:
-- Login (email, senha, criar login, esqueci minha senha).
-- CRUD simples de tarefas (Adicionar, Marcar como feito, Editar/Excluir).
-- Notas rápidas (salvar/editar).
-- Cronômetro/Pomodoro (start/pause/reset/salvar tempo de produtividade).
-- Carrossel de frases motivacionais (Banners).
-- Mostrar hora atual (atualiza a cada segundo/minuto).
-- Integração com API de clima.
-- Toggle Dark/Light (persistir escolha).
-- Persistência no navegador (localStorage).
+## Tecnologias
+- HTML5  
+- CSS3  
+- JavaScript (ES6+)  
+- LocalStorage  
+- API de Clima  
+
+---
+
+## Funcionalidades
+- Login (criar conta, login, esqueci senha)  
+- CRUD de tarefas (Adicionar, Marcar feito, Editar, Excluir)  
+- Notas rápidas  
+- Cronômetro/Pomodoro (start, pause, reset, salvar tempo)  
+- Frases motivacionais automáticas  
+- Hora atual em tempo real  
+- Tema Dark/Light (com persistência)  
+
+---
+
+## Estrutura
+/
+├── index.html
+├── dashboard.html
+├── /scripts
+├── /styles
+└── /assets
+
+---
+
+## Próximos Passos
+- Firebase para autenticação real  
+- Deploy (Vercel ou Netlify)  
+- Ajustes de UI/UX 
